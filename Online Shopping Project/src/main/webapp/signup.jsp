@@ -10,8 +10,8 @@
      <form action="signupAction.jsp" method="post">
     <input type="text" name="name" placeholder="Enter Name" required>
         <input type="email" name="email" placeholder="Enter Email" required>
-        <input type="number" name="mobileNumber" placeholder="Enter Mobile NUmberr" required>
-    <select name="SecurityQuestion" required>
+        <input type="number" name="mobileNumber" placeholder="Enter Mobile Number" required>
+    <select name="securityQuestion" required>
     <option value="What was your School Name">What was your School Name</option>
         <option value="What is your Favorite Food">What is your Favorite Food</option>
     <option value="Which is your First Mobile">Which is your First Mobile</option>
@@ -20,7 +20,7 @@
     <input type="password" name="password" placeholder="Enter Password" required>
     <input type="submit" value="signup">
     </form>
-      <h2><a href="">Login</a></h2>
+      <h2><a href="login.jsp">Login</a></h2>
   </div>
   <div class='whysign'>
 <%
